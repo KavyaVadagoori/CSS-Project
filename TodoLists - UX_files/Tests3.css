@@ -1,0 +1,91 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    
+
+
+}
+.cover-img{
+    background-image: url(E:\Kavyawork\workspace\project\css\d2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    filter: blur(7px);
+}
+
+
+
+.tudo{
+    
+    height: 200px;
+    width: 200px;
+    font-style:initial;
+    font-weight: lighter;
+    text-align: center;   
+}
+.abc{
+    height: 20px;
+    width: 150px;
+    border-style: outset;
+    border-color: lightcoral; 
+    border-width: thin;
+    border-top-left-radius: 1px ;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(177, 170, 170);
+    display: inline-block;
+}
+
+.btn{
+    height: 25px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius:  10px;
+    background-color: rgb(226, 97, 97);
+    color:white ;
+    text-align: center;
+    cursor: pointer;
+    border-spacing: 20px; 
+    float: center ;
+    
+    
+}
+h3{
+    font-size: 15px;
+    text-align-last: center;
+    text-size-adjust: 20px;
+text-underline-position: below;
+ color: red;
+ text-align: center;
+ font-family:'Roboto', sans-serif ;
+ font-weight: lighter;
+}
+
+h4{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 11px;
+}
+
+.task{
+    font-family:  "adobe-clean", sans-serif;
+    border-style: outset;
+    border-color: lightcoral; 
+    border-width: thin;
+    border-top-left-radius: 1px ;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(177, 170, 170);
+
+
+
+ }

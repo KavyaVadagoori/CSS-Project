@@ -1,0 +1,99 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.abc{width:450px;
+    display: inline-block;
+    margin-left: 14px;
+    
+ }
+
+
+
+.tudo{
+    display: flex;
+    justify-content:space-around;
+    height: 200px;
+    width: 500px;
+    font-style:initial;
+    font-weight: lighter;
+    text-align: center;   
+}
+
+.btn{
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: red;
+    color:white ;
+    text-align: center;
+    cursor: pointer;
+    border-spacing: 20px; 
+    float: right ;
+    
+    
+}
+.add{
+    float: right; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+.List{
+    font-family: 'Assistant', sans-serif;
+    font-weight: lighter ;
+    font-size: 30p;
+}
+
+h3{
+    font-size: 15px;
+    text-align-last: center;
+    text-size-adjust: 20px;
+text-underline-position: below;
+ color: red ;
+ text-align: center;
+ font-family:'Roboto', sans-serif ;
+ font-weight: lighter;
+}
+.divider{
+    height: 2px;
+    width: 75%;
+    background-color: gray;
+    display: inline-block;
+}
+
+    
+
+.line{
+    text-align: right;
+}
+p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: red;
+    text-emphasis-color: solid red;
+    text-decoration: solid red line-through;
+    text-align-last: center; 
+}
+
+h4{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 11px;
+}
+
+.task{
+    font-family:  "adobe-clean", sans-serif;
+    border-style: outset;
+    border-color: lightcoral; 
+    border-width: thin;
+    border-top-left-radius: 1px ;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(177, 170, 170);
+ }

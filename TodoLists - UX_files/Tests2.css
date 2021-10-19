@@ -1,0 +1,141 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+}
+
+h1:before{
+    content: "";
+    display:block;
+    width: 210px;
+    height: 2px;
+    background-color: gray;
+    position:absolute;
+     left: 0px;
+     top: 5%;
+}
+h1:after{
+    content: "";
+    display: block;
+    width: 210px;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+     right: 0px;
+     top: 5%;
+    
+}
+
+
+
+.tudo{
+    display: flexbox;
+    justify-content:center;
+    height: 500px;
+    width: 40%;
+    font-style:initial;
+    font-weight: lighter;
+    text-align: center;
+      
+}
+.btnn{ 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: red;
+    color:white ;
+    text-align: center;
+    cursor: pointer;
+    border-spacing: 20px; 
+    float: center ; 
+    margin-right: 10px; 
+}
+
+.btn{
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: red;
+    color:white ;
+    text-align: center;
+    cursor: pointer;
+    border-spacing: 20px; 
+    position:fixed;
+    bottom: 220px;
+    right: 195px;
+    
+    
+    
+}
+.add{
+    float: center; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+.List{
+    font-family: 'Assistant', sans-serif;
+    font-weight: lighter ;
+    font-size: 30p;
+}
+
+h3{
+    font-size: 15px;
+    text-align-last: center;
+    text-size-adjust: 20px;
+text-underline-position: below;
+ color: red ;
+ text-align: center;
+ font-family:'Roboto', sans-serif ;
+ font-weight: lighter;
+}
+.divider{
+    height: 2px;
+    width: 75%;
+    background-color: gray;
+    display: inline-block;
+}
+
+    
+
+.line{
+    text-align: right;
+}
+p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: red;
+    text-emphasis-color: solid red;
+    text-decoration: solid red line-through;
+    text-align-last: center; 
+}
+
+h4{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 11px;
+}
+
+.task{
+    height: 200px;
+    font-family:  "adobe-clean", sans-serif;
+    border-style: outset;
+    border-color: lightcoral; 
+    border-width: thin;
+    border-top-left-radius: 1px ;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(177, 170, 170);
+ }
